@@ -1,92 +1,107 @@
-📧 Email Spam Classification – AI Project
-A machine learning-based project to classify email messages as spam or ham using various supervised learning algorithms. This project demonstrates preprocessing techniques, feature selection, visualization, and evaluation of multiple models.
+Here is a clean, well-structured `README.md` file for your **Email Spam Classification AI Project** on GitHub:
 
-🚀 Project Overview
+---
+
+# 📧 Email Spam Classification – AI Project
+
+A machine learning-based project to classify email messages as **spam** or **ham** using various supervised learning algorithms. This project demonstrates preprocessing techniques, feature selection, visualization, and evaluation of multiple models.
+
+---
+
+## 🚀 Project Overview
+
 The goal of this project is to accurately detect whether a given email is spam or not by training ML classifiers on labeled email data. The models learn patterns in email content using vectorized features and are tested against known labels to evaluate their performance.
 
-📋 Features
-📊 Data Preprocessing: Cleaning, duplicate removal, null handling, mapping labels.
+---
 
-📦 Data Representation:
+## 📋 Features
 
-Boxplots for outlier detection
+* 📊 **Data Preprocessing**: Cleaning, duplicate removal, null handling, mapping labels.
+* 📦 **Data Representation**:
 
-Histograms of text length
+  * Boxplots for outlier detection
+  * Histograms of text length
+  * Pie chart for spam vs ham distribution
+  * Word frequency analysis
+* 🤖 **Models Used**:
 
-Pie chart for spam vs ham distribution
+  * Logistic Regression
+  * Decision Tree
+  * Support Vector Machine (SVM)
+  * Random Forest
+  * K-Nearest Neighbors (KNN)
+* 🧠 **Feature Engineering**:
 
-Word frequency analysis
+  * Text vectorization
+  * `SelectKBest` feature selection
+  * Correlation analysis
 
-🤖 Models Used:
+---
 
-Logistic Regression
+## 🧪 Preprocessing Steps
 
-Decision Tree
+1. **Load and Explore Dataset**
 
-Support Vector Machine (SVM)
+   * View size, columns, summary statistics
+   * Handle null and duplicate values
 
-Random Forest
+2. **Label Encoding**
 
-K-Nearest Neighbors (KNN)
+   * Map labels: `"spam"` → `1`, `"ham"` → `0`
 
-🧠 Feature Engineering:
+3. **Visualization**
 
-Text vectorization
+   * Pie chart of spam vs ham
+   * Histogram of message lengths
+   * Word clouds or bar charts of common terms
 
-SelectKBest feature selection
+---
 
-Correlation analysis
+## 🧠 Models & Hyperparameters
 
-🧪 Preprocessing Steps
-Load and Explore Dataset
-
-View size, columns, summary statistics
-
-Handle null and duplicate values
-
-Label Encoding
-
-Map labels: "spam" → 1, "ham" → 0
-
-Visualization
-
-Pie chart of spam vs ham
-
-Histogram of message lengths
-
-Word clouds or bar charts of common terms
-
-🧠 Models & Hyperparameters
-Model	Hyperparameters
-Logistic Regression	C=1.0, solver='liblinear'
-Decision Tree	criterion='entropy'
-SVM	kernel='rbf', C=1.0
-Random Forest	n_estimators=100, random_state=42
-KNN	n_neighbors=5
+| Model               | Hyperparameters                       |
+| ------------------- | ------------------------------------- |
+| Logistic Regression | `C=1.0`, `solver='liblinear'`         |
+| Decision Tree       | `criterion='entropy'`                 |
+| SVM                 | `kernel='rbf'`, `C=1.0`               |
+| Random Forest       | `n_estimators=100`, `random_state=42` |
+| KNN                 | `n_neighbors=5`                       |
 
 All models are trained on the preprocessed data and evaluated using accuracy and classification metrics.
 
-⚙️ Technologies Used
-Python 3
+---
 
-scikit-learn
+## ⚙️ Technologies Used
 
-pandas, NumPy
+* **Python 3**
+* **scikit-learn**
+* **pandas**, **NumPy**
+* **matplotlib**, **seaborn**
 
-matplotlib, seaborn
+---
 
-📈 Results & Conclusion
-The system successfully classifies user-input emails into spam or ham using trained models. Among the tested algorithms, performance may vary depending on the feature selection and model parameters.
+## 📈 Results & Conclusion
 
-👥 Team Members
-Mariem Naeem Senada — 2022170419
+The system successfully classifies user-input emails into **spam** or **ham** using trained models. Among the tested algorithms, performance may vary depending on the feature selection and model parameters.
 
-Simon Hanna Reyad — 2022170201
+---
 
-Amira Tharwat Hanna — 2022170076
+## 👥 Team Members
 
-Mohamed Osama Ahmed — 20201700664
+* Mariem Naeem Senada — `2022170419`
+* Simon Hanna Reyad — `2022170201`
+* Amira Tharwat Hanna — `2022170076`
+* Mohamed Osama Ahmed — `20201700664`
+* Beshoy Akram Alfy — `2022170102`
+* Youssef Ashraf Abdo — `2022170511`
 
-Beshoy Akram Alfy — 2022170102
+---
 
-Youssef Ashraf Abdo — 2022170511
+## 🙌 Thank You!
+
+Feel free to contribute or suggest improvements.
+Let's keep the inbox clean! 💌
+
+---
+
+Would you like me to prepare this as a downloadable `.md` file too?
