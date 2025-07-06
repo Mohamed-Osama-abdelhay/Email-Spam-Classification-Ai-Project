@@ -88,20 +88,11 @@ The system successfully classifies user-input emails into **spam** or **ham** us
 
 ## 👥 Team Members
 
-* Mariem Naeem Senada — `2022170419`
-* Simon Hanna Reyad — `2022170201`
-* Amira Tharwat Hanna — `2022170076`
-* Mohamed Osama Ahmed — `20201700664`
-* Beshoy Akram Alfy — `2022170102`
-* Youssef Ashraf Abdo — `2022170511`
+* Mariem Naeem Senada 
+* Simon Hanna Reyad 
+* Amira Tharwat Hanna 
+* Mohamed Osama Ahmed 
+* Beshoy Akram Alfy 
+* Youssef Ashraf Abdo 
 
 ---
-
-## 🙌 Thank You!
-
-Feel free to contribute or suggest improvements.
-Let's keep the inbox clean! 💌
-
----
-
-Would you like me to prepare this as a downloadable `.md` file too?
