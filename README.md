@@ -1,6 +1,4 @@
-Here is a clean, well-structured `README.md` file for your **Email Spam Classification AI Project** on GitHub:
 
----
 
 # 📧 Email Spam Classification – AI Project
 
